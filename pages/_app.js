@@ -7,13 +7,15 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Next Events</title>
+        <meta name="description" content="Next js events" />
+      </Head>
+      ;
       <Component {...pageProps} />
     </Layout>
   );
 }
 
 export default MyApp;
-
-// <Head>
-//   <meta name="viewport" content="width=device-width, initial-scale=1" />
-// </Head>;
