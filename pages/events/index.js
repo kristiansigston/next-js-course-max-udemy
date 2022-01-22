@@ -3,6 +3,7 @@ import EventList from "../../components/events/event-list";
 import EventsSearch from "../../components/events/events-search";
 import { Fragment } from "react/cjs/react.development";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 const AllEventsPage = (props) => {
   const { events } = props;
